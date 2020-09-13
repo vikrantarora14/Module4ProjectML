@@ -1,0 +1,13 @@
+./run_kubernetes.sh
+Error from server (AlreadyExists): pods "projectml" already exists
+./run_kubernetes.sh: line 15: --port=80: command not found
+NAME                       READY   STATUS             RESTARTS   AGE
+fail-68d548478f-2fljb      1/1     Running            0          4m39s
+fail1-66684d89b7-gkj6v     0/1     ImagePullBackOff   0          23s
+projectml                  1/1     Running            0          14m
+testpod-7d6bfdd9ff-4jvbp   1/1     Running            0          3m44s
+testpod1-8dbc8ff77-6xkvn   1/1     Running            1          3d18h
+testpod2-8986d477c-mm98d   1/1     Running            0          63s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
